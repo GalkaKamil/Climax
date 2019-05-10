@@ -10,5 +10,6 @@ class Repository(repositoryName: String,var repositoryOwner: String?,var numberO
         set(value) {
             field = value
             notifyPropertyChanged(BR.repositoryName)
+            //git
         }
 }
